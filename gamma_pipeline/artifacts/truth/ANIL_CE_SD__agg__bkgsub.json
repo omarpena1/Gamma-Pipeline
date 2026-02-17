@@ -1,0 +1,39 @@
+{
+  "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+  "activity_unit": "Bq",
+  "labels": {
+    "1000": {
+      "ce134": {"value": 37000.0, "sigma": null}
+    },
+    "500": {
+      "ce134": {"value": 18500.0, "sigma": null}
+    },
+    "250": {
+      "ce134": {"value": 9250.0, "sigma": null}
+    },
+    "125": {
+      "ce134": {"value": 4625.0, "sigma": null}
+    },
+    "62.5": {
+      "ce134": {"value": 2312.5, "sigma": null}
+    },
+    "31.25": {
+      "ce134": {"value": 1156.25, "sigma": null}
+    },
+    "15.625": {
+      "ce134": {"value": 578.125, "sigma": null}
+    },
+    "7.8125": {
+      "ce134": {"value": 289.0625, "sigma": null}
+    },
+    "3.90625": {
+      "ce134": {"value": 144.53125, "sigma": null}
+    },
+    "1.953125": {
+      "ce134": {"value": 72.265625, "sigma": null}
+    }
+  },
+  "notes": {
+    "source": "Anil Ce-134 serial dilution mixtures. Reported activities from <PATH_TO_FILE>.xlsx"
+  }
+}

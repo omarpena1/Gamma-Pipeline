@@ -1,0 +1,74 @@
+{
+  "activities_bq": {
+    "ac225": 180.66670539888838,
+    "ce134": 274.1111209488641
+  },
+  "diagnostics": {
+    "fit": {
+      "activity_units": "nci",
+      "bounds": [
+        [
+          0.0,
+          null
+        ],
+        [
+          0.0,
+          null
+        ]
+      ],
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "fun_nll2": 1558.753770217571,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "method": "L-BFGS-B",
+      "nit": 12,
+      "status": 0,
+      "success": true,
+      "x0": [
+        1.0,
+        1.0
+      ]
+    },
+    "fit_meta": {
+      "labels": [
+        "ac225",
+        "ce134"
+      ],
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nit": 12,
+      "nll2": 1558.753770217571,
+      "success": true
+    },
+    "run_config": {
+      "activity_units": "nci",
+      "eff_models": {
+        "ac225": "ac225_anilSD_resp_200-1250keV_cpm_nCi_np_v1",
+        "ce134": "ce134_resp_200-1250keV_cpm_nCi_np_v1"
+      },
+      "method": "poisson_mle_v1",
+      "roi_keV": [
+        200,
+        1250
+      ],
+      "templates": {
+        "ac225": {
+          "cal_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+          "experiment_id": "ANIL_AC_SD__agg__bkgsub",
+          "label": "15.625"
+        },
+        "ce134": {
+          "cal_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+          "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+          "label": "1.95312"
+        }
+      }
+    },
+    "saved_at": "2026-02-11T20:01:29.606632+00:00"
+  },
+  "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+  "label": "7.8125:3.906",
+  "uncertainties_bq": {
+    "ac225": 4.131439414716197,
+    "ce134": 3.117595236244928
+  }
+}

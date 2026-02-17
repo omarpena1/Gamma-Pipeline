@@ -1,0 +1,365 @@
+{
+  "calibration_spec": {
+    "method": "peakfit_v1",
+    "params": {
+      "debug": false,
+      "expected_energies": [
+        218.0,
+        440.45,
+        510.99895069,
+        1021.99790138
+      ],
+      "fit_order": 1,
+      "kernel": [
+        500,
+        50
+      ],
+      "livetime": 60.0,
+      "method": "fit",
+      "min_snr": 1.2,
+      "tolerance": 75,
+      "xmin": 200
+    }
+  },
+  "calibration_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+  "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+  "meta": {
+    "calibration_spec": {
+      "method": "peakfit_v1",
+      "params": {
+        "debug": false,
+        "expected_energies": [
+          218.0,
+          440.45,
+          510.99895069,
+          1021.99790138
+        ],
+        "fit_order": 1,
+        "kernel": [
+          500,
+          50
+        ],
+        "livetime": 60.0,
+        "method": "fit",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      }
+    },
+    "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+    "per_sample": {
+      "1.953:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          218.5,
+          442.5,
+          523.5,
+          634.5,
+          1056.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "1.953:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          218.5,
+          442.5,
+          523.5,
+          1056.5
+        ],
+        "matched_energies": [
+          218.0,
+          440.45,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "125:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          210.5,
+          325.5,
+          516.5,
+          640.5,
+          734.5,
+          1059.5,
+          1582.5,
+          1743.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "125:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          210.5,
+          516.5,
+          1059.5
+        ],
+        "matched_energies": [
+          218.0,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "15.625:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          215.5,
+          517.5,
+          1058.5,
+          2002.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "15.625:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          215.5,
+          517.5,
+          1058.5
+        ],
+        "matched_energies": [
+          218.0,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "3.906:1.953": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          216.5,
+          318.5,
+          518.5,
+          1059.5,
+          1568.5,
+          2003.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "3.906:1.953",
+        "livetime": 60.0,
+        "matched_channels": [
+          216.5,
+          518.5,
+          1059.5
+        ],
+        "matched_energies": [
+          218.0,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "3.906:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          217.5,
+          440.5,
+          518.5,
+          1048.5,
+          1996.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "3.906:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          217.5,
+          440.5,
+          518.5,
+          1048.5
+        ],
+        "matched_energies": [
+          218.0,
+          440.45,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "31.25:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          214.5,
+          517.5,
+          638.5,
+          1059.5,
+          1343.5,
+          2003.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "31.25:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          214.5,
+          517.5,
+          1059.5
+        ],
+        "matched_energies": [
+          218.0,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "62.5:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          211.5,
+          517.5,
+          634.5,
+          744.5,
+          1060.5,
+          1464.5,
+          1997.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "62.5:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          211.5,
+          517.5,
+          1060.5
+        ],
+        "matched_energies": [
+          218.0,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "7.8125:3.906": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+        "fit_order": 1,
+        "found_peaks": [
+          216.5,
+          439.5,
+          518.5,
+          1057.5,
+          2008.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "7.8125:3.906",
+        "livetime": 60.0,
+        "matched_channels": [
+          216.5,
+          439.5,
+          518.5,
+          1057.5
+        ],
+        "matched_energies": [
+          218.0,
+          440.45,
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      }
+    },
+    "source_meta": {
+      "aggregation": {
+        "ddof": 1,
+        "group_key": "activity",
+        "label_grammar": "A(:A:...)*_repN",
+        "n_reps": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "uncertainty_kind": "sd_between"
+      },
+      "background_subtraction": {
+        "bkg_bank_size": null,
+        "bkg_livetime_s": null,
+        "clamp_nonnegative": true,
+        "exp_livetime_s": null,
+        "method": "subtract_scaled_background",
+        "mode": "single"
+      },
+      "mapping_meta": {
+        "activities": [
+          "3.906:1.953",
+          "125:3.906",
+          "62.5:3.906",
+          "31.25:3.906",
+          "15.625:3.906",
+          "7.8125:3.906",
+          "3.906:3.906",
+          "1.953:3.906"
+        ],
+        "label_scheme": "ACT_repN",
+        "n_reps": 3
+      },
+      "raw_meta": {
+        "kind": "experiment"
+      },
+      "source_path": "C:\\Users\\pomar\\OneDrive\\Desktop\\Hidex_AcCe_July2_Wenjo_Project\\Box_12-1-2025\\134Ce+225Ac-Hidex data_Naidu\\24-0921_Hidex_AcCe-Mixture-Standards-Repeat\\Mix_.xlsx"
+    }
+  }
+}

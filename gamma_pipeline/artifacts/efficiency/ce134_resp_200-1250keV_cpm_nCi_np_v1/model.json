@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "A_used": [
+      1.95312,
+      1000.0,
+      125.0,
+      15.625,
+      250.0,
+      3.90625,
+      31.25,
+      500.0,
+      62.5,
+      7.8125,
+      0.390625,
+      0.78125,
+      1.5625,
+      100.0,
+      12.5,
+      200.0,
+      25.0,
+      3.125,
+      50.0,
+      6.25
+    ],
+    "R_used": [
+      1383.1666666666665,
+      585583.7,
+      81122.70000000001,
+      10285.633333333333,
+      156685.73333333334,
+      2697.433333333333,
+      20435.3,
+      305690.06666666665,
+      40390.3,
+      5257.9,
+      330.2,
+      604.8,
+      1086.2,
+      70330.5,
+      8853.6,
+      139747.80000000002,
+      17832.800000000003,
+      2244.0,
+      35919.6,
+      4490.2
+    ],
+    "R_used_sigma": null,
+    "covariance": [
+      [
+        85.9081930427466,
+        0.00016034817603660466
+      ],
+      [
+        0.00016034817603660466,
+        3.355545893701813e-10
+      ]
+    ],
+    "diagnostics": {
+      "fit": "scipy_curve_fit",
+      "n_points": 20,
+      "nmse": 0.0003761856854574835
+    },
+    "experiment_id": "ANIL_CE_SD__agg__bkgsub__WENJO_CE_SD__agg__bkgsub__nobkgrows__merged",
+    "fit_spec": {
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "livetime_s": 60.0,
+      "model_type": "nonparalyzable",
+      "name": "ce134_resp_200-1250keV_cpm_nCi_np_v1",
+      "rate_units": "counts_per_min",
+      "used_sigma": false
+    },
+    "used_labels": [
+      "ANIL_CE_SD__agg__bkgsub::1.95312",
+      "ANIL_CE_SD__agg__bkgsub::1000",
+      "ANIL_CE_SD__agg__bkgsub::125",
+      "ANIL_CE_SD__agg__bkgsub::15.625",
+      "ANIL_CE_SD__agg__bkgsub::250",
+      "ANIL_CE_SD__agg__bkgsub::3.90625",
+      "ANIL_CE_SD__agg__bkgsub::31.25",
+      "ANIL_CE_SD__agg__bkgsub::500",
+      "ANIL_CE_SD__agg__bkgsub::62.5",
+      "ANIL_CE_SD__agg__bkgsub::7.8125",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::0.390625",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::0.78125",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::1.5625",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::100",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::12.5",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::200",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::25",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::3.125",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::50",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::6.25"
+    ]
+  },
+  "model_type": "nonparalyzable",
+  "name": "ce134_resp_200-1250keV_cpm_nCi_np_v1",
+  "params": {
+    "a": 666.3856722953475,
+    "b": 0.00014065053049946288
+  }
+}

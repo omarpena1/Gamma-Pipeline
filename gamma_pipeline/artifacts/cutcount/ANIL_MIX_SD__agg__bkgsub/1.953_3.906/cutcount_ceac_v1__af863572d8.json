@@ -1,0 +1,49 @@
+{
+  "activities_bq": {
+    "ac225": 463.5849969861361,
+    "ce134": 181.90000000000003
+  },
+  "diagnostics": {
+    "calibrations": {
+      "ac225": {
+        "intercept_counts": 0.0,
+        "slope_counts_per_bq": 1.0
+      },
+      "ce134": {
+        "intercept_counts": 0.0,
+        "slope_counts_per_bq": 1.0
+      }
+    },
+    "counts": {
+      "ac225_residual": 463.5849969861361,
+      "ac225_residual_sigma": 21.5310240579991,
+      "ce134_1022": 181.90000000000003,
+      "ce134_1022_sigma": 13.48703080740902,
+      "ce_scale": 0.9867992766726946,
+      "ce_template_1022": 184.33333333333331
+    },
+    "method_tag": "cutcount_ceac_v1",
+    "nsigma": 2.0,
+    "resolution_pct_fwhm": 8.0,
+    "roi_keV": [
+      200.0,
+      1250.0
+    ],
+    "windows": {
+      "ac225": {
+        "center_keV": 218.0,
+        "half_width_keV": 14.811040339702762
+      },
+      "ce134": {
+        "center_keV": 1022.0,
+        "half_width_keV": 69.43524416135881
+      }
+    }
+  },
+  "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+  "label": "1.953:3.906",
+  "uncertainties_bq": {
+    "ac225": 21.5310240579991,
+    "ce134": 13.48703080740902
+  }
+}

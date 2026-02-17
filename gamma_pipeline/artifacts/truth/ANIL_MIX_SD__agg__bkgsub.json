@@ -1,0 +1,41 @@
+{
+  "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+  "activity_unit": "Bq",
+  "labels": {
+    "3.906:1.953": {
+      "ce134": {"value": 144.53125, "sigma": null},
+      "ac225": {"value": 72.265625, "sigma": null}
+    },
+    "125:3.906": {
+      "ce134": {"value": 4625.0, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "62.5:3.906": {
+      "ce134": {"value": 2312.5, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "31.25:3.906": {
+      "ce134": {"value": 1156.25, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "15.625:3.906": {
+      "ce134": {"value": 578.125, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "7.8125:3.906": {
+      "ce134": {"value": 289.0625, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "3.906:3.906": {
+      "ce134": {"value": 144.53125, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "1.953:3.906": {
+      "ce134": {"value": 72.265625, "sigma": null},
+      "ac225": {"value": 144.53125, "sigma": null}
+    }
+  },
+  "notes": {
+    "source": "Anil serial dilution mixtures. Reported activities from <PATH_TO_FILE>.xlsx"
+  }
+}

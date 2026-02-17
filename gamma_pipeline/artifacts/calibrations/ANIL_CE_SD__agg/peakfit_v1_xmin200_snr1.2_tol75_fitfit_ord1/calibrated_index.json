@@ -1,0 +1,64 @@
+{
+  "index": {
+    "1.95312": {
+      "format": "npz",
+      "json": "1.95312.json",
+      "label": "1.95312",
+      "npz": "1.95312.npz"
+    },
+    "1000": {
+      "format": "npz",
+      "json": "1000.json",
+      "label": "1000",
+      "npz": "1000.npz"
+    },
+    "125": {
+      "format": "npz",
+      "json": "125.json",
+      "label": "125",
+      "npz": "125.npz"
+    },
+    "15.625": {
+      "format": "npz",
+      "json": "15.625.json",
+      "label": "15.625",
+      "npz": "15.625.npz"
+    },
+    "250": {
+      "format": "npz",
+      "json": "250.json",
+      "label": "250",
+      "npz": "250.npz"
+    },
+    "3.90625": {
+      "format": "npz",
+      "json": "3.90625.json",
+      "label": "3.90625",
+      "npz": "3.90625.npz"
+    },
+    "31.25": {
+      "format": "npz",
+      "json": "31.25.json",
+      "label": "31.25",
+      "npz": "31.25.npz"
+    },
+    "500": {
+      "format": "npz",
+      "json": "500.json",
+      "label": "500",
+      "npz": "500.npz"
+    },
+    "62.5": {
+      "format": "npz",
+      "json": "62.5.json",
+      "label": "62.5",
+      "npz": "62.5.npz"
+    },
+    "7.8125": {
+      "format": "npz",
+      "json": "7.8125.json",
+      "label": "7.8125",
+      "npz": "7.8125.npz"
+    }
+  }
+}

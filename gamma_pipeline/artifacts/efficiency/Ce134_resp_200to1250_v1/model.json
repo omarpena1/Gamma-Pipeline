@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "A_used": [
+      0.390625,
+      0.78125,
+      1.5625,
+      100.0,
+      12.5,
+      200.0,
+      25.0,
+      3.125,
+      50.0,
+      6.25,
+      1.95312,
+      1000.0,
+      125.0,
+      15.625,
+      250.0,
+      3.90625,
+      31.25,
+      500.0,
+      62.5,
+      7.8125
+    ],
+    "R_used": [
+      330.2,
+      604.8,
+      1086.2,
+      70330.5,
+      8853.6,
+      139747.80000000002,
+      17832.800000000003,
+      2244.0,
+      35919.6,
+      4490.2,
+      1506.6666666666665,
+      585713.0,
+      81250.99999999999,
+      10414.333333333334,
+      156814.33333333334,
+      2827.333333333333,
+      20564.0,
+      305819.6666666667,
+      40519.0,
+      5387.0
+    ],
+    "R_used_sigma": null,
+    "covariance": [
+      [
+        84.80309290326004,
+        0.0001582611704196346
+      ],
+      [
+        0.0001582611704196346,
+        3.311421200728052e-10
+      ]
+    ],
+    "diagnostics": {
+      "fit": "scipy_curve_fit",
+      "n_points": 20,
+      "nmse": 0.00037079560283509574
+    },
+    "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows__ANIL_CE_SD__agg__merged",
+    "fit_spec": {
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "livetime_s": 60.0,
+      "model_type": "nonparalyzable",
+      "name": "Ce134_resp_200to1250_v1",
+      "rate_units": "counts_per_min",
+      "used_sigma": false
+    },
+    "used_labels": [
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::0.390625",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::0.78125",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::1.5625",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::100",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::12.5",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::200",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::25",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::3.125",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::50",
+      "WENJO_CE_SD__agg__bkgsub__nobkgrows::6.25",
+      "ANIL_CE_SD__agg::1.95312",
+      "ANIL_CE_SD__agg::1000",
+      "ANIL_CE_SD__agg::125",
+      "ANIL_CE_SD__agg::15.625",
+      "ANIL_CE_SD__agg::250",
+      "ANIL_CE_SD__agg::3.90625",
+      "ANIL_CE_SD__agg::31.25",
+      "ANIL_CE_SD__agg::500",
+      "ANIL_CE_SD__agg::62.5",
+      "ANIL_CE_SD__agg::7.8125"
+    ]
+  },
+  "model_type": "nonparalyzable",
+  "name": "Ce134_resp_200to1250_v1",
+  "params": {
+    "a": 666.9308365575304,
+    "b": 0.00014134789261918462
+  }
+}

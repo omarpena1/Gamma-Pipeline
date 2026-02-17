@@ -1,0 +1,39 @@
+{
+  "experiment_id": "ANIL_MIX_SD__agg",
+  "meta": {
+    "aggregation": {
+      "ddof": 1,
+      "group_key": "activity",
+      "label_grammar": "A(:A:...)*_repN",
+      "n_reps": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "uncertainty_kind": "sd_between"
+    },
+    "mapping_meta": {
+      "activities": [
+        "3.906:1.953",
+        "125:3.906",
+        "62.5:3.906",
+        "31.25:3.906",
+        "15.625:3.906",
+        "7.8125:3.906",
+        "3.906:3.906",
+        "1.953:3.906"
+      ],
+      "label_scheme": "ACT_repN",
+      "n_reps": 3
+    },
+    "raw_meta": {
+      "kind": "experiment"
+    },
+    "source_path": "C:\\Users\\pomar\\OneDrive\\Desktop\\Hidex_AcCe_July2_Wenjo_Project\\Box_12-1-2025\\134Ce+225Ac-Hidex data_Naidu\\24-0921_Hidex_AcCe-Mixture-Standards-Repeat\\Mix_.xlsx"
+  }
+}

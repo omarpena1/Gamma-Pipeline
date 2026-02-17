@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "A_used": [
+      0.390625,
+      0.78125,
+      1.5625,
+      100.0,
+      12.5,
+      200.0,
+      25.0,
+      3.125,
+      50.0,
+      6.25
+    ],
+    "R_used": [
+      330.2,
+      604.8,
+      1086.2,
+      70330.5,
+      8853.6,
+      139747.80000000002,
+      17832.800000000003,
+      2244.0,
+      35919.6,
+      4490.2
+    ],
+    "R_used_sigma": null,
+    "covariance": [
+      [
+        7.977014921693295,
+        6.127943476412235e-05
+      ],
+      [
+        6.127943476412235e-05,
+        5.127552939683108e-10
+      ]
+    ],
+    "diagnostics": {
+      "fit": "scipy_curve_fit",
+      "n_points": 10,
+      "nmse": 1.0243526238918323e-05
+    },
+    "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+    "fit_spec": {
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "livetime_s": 60.0,
+      "model_type": "nonparalyzable",
+      "name": "ce134_wenjoSD_resp_200-1250keV_cpm_nCi_np_v1",
+      "rate_units": "counts_per_min",
+      "used_sigma": false
+    },
+    "used_labels": [
+      "0.390625",
+      "0.78125",
+      "1.5625",
+      "100",
+      "12.5",
+      "200",
+      "25",
+      "3.125",
+      "50",
+      "6.25"
+    ]
+  },
+  "model_type": "nonparalyzable",
+  "name": "ce134_wenjoSD_resp_200-1250keV_cpm_nCi_np_v1",
+  "params": {
+    "a": 714.4010953108684,
+    "b": 0.00011396737976639658
+  }
+}

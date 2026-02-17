@@ -1,0 +1,39 @@
+{
+  "experiment_id": "ANIL_AC_SD__agg__bkgsub",
+  "activity_unit": "Bq",
+  "labels": {
+    "1000": {
+      "ac225": {"value": 37000.0, "sigma": null}
+    },
+    "500": {
+      "ac225": {"value": 18500.0, "sigma": null}
+    },
+    "250": {
+      "ac225": {"value": 9250.0, "sigma": null}
+    },
+    "125": {
+      "ac225": {"value": 4625.0, "sigma": null}
+    },
+    "62.5": {
+      "ac225": {"value": 2312.5, "sigma": null}
+    },
+    "31.25": {
+      "ac225": {"value": 1156.25, "sigma": null}
+    },
+    "15.625": {
+      "ac225": {"value": 578.125, "sigma": null}
+    },
+    "7.8125": {
+      "ac225": {"value": 289.0625, "sigma": null}
+    },
+    "3.90625": {
+      "ac225": {"value": 144.53125, "sigma": null}
+    },
+    "1.953125": {
+      "ac225": {"value": 72.265625, "sigma": null}
+    }
+  },
+  "notes": {
+    "source": "Anil Ac-225 serial dilution mixtures. Reported activities from <PATH_TO_FILE>.xlsx"
+  }
+}

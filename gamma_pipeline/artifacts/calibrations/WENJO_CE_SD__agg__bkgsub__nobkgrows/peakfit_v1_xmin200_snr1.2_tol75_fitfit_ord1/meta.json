@@ -1,0 +1,404 @@
+{
+  "calibration_spec": {
+    "method": "peakfit_v1",
+    "params": {
+      "debug": false,
+      "expected_energies": [
+        510.99895069,
+        1021.99790138
+      ],
+      "fit_order": 1,
+      "kernel": [
+        500,
+        50
+      ],
+      "livetime": 60.0,
+      "method": "fit",
+      "min_snr": 1.2,
+      "tolerance": 75,
+      "xmin": 200
+    }
+  },
+  "calibration_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+  "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+  "meta": {
+    "calibration_spec": {
+      "method": "peakfit_v1",
+      "params": {
+        "debug": false,
+        "expected_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "fit_order": 1,
+        "kernel": [
+          500,
+          50
+        ],
+        "livetime": 60.0,
+        "method": "fit",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      }
+    },
+    "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+    "per_sample": {
+      "0.390625": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          297.5,
+          518.5,
+          1066.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "0.390625",
+        "livetime": 60.0,
+        "matched_channels": [
+          518.5,
+          1066.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "0.78125": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          520.5,
+          1062.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "0.78125",
+        "livetime": 60.0,
+        "matched_channels": [
+          520.5,
+          1062.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "1.5625": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          217.5,
+          392.5,
+          521.5,
+          868.5,
+          1070.5,
+          1348.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "1.5625",
+        "livetime": 60.0,
+        "matched_channels": [
+          521.5,
+          1070.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "100": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          211.5,
+          522.5,
+          643.5,
+          746.5,
+          1070.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "100",
+        "livetime": 60.0,
+        "matched_channels": [
+          522.5,
+          1070.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "12.5": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          210.5,
+          521.5,
+          1068.5,
+          1543.5,
+          2005.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "12.5",
+        "livetime": 60.0,
+        "matched_channels": [
+          521.5,
+          1068.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "200": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          210.5,
+          333.5,
+          520.5,
+          749.5,
+          1068.5,
+          1467.5,
+          1649.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "200",
+        "livetime": 60.0,
+        "matched_channels": [
+          520.5,
+          1068.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "25": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          210.5,
+          353.5,
+          522.5,
+          642.5,
+          767.5,
+          1069.5,
+          1999.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "25",
+        "livetime": 60.0,
+        "matched_channels": [
+          522.5,
+          1069.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "3.125": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          208.5,
+          520.5,
+          1069.5,
+          1588.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "3.125",
+        "livetime": 60.0,
+        "matched_channels": [
+          520.5,
+          1069.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "50": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          211.5,
+          522.5,
+          735.5,
+          1072.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "50",
+        "livetime": 60.0,
+        "matched_channels": [
+          522.5,
+          1072.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      },
+      "6.25": {
+        "cal_method": "Normal calibration",
+        "experiment_id": "WENJO_CE_SD__agg__bkgsub__nobkgrows",
+        "fit_order": 1,
+        "found_peaks": [
+          211.5,
+          520.5,
+          656.5,
+          1068.5
+        ],
+        "kernel": [
+          500,
+          50
+        ],
+        "label": "6.25",
+        "livetime": 60.0,
+        "matched_channels": [
+          520.5,
+          1068.5
+        ],
+        "matched_energies": [
+          510.99895069,
+          1021.99790138
+        ],
+        "method": "peakfit_v1",
+        "min_snr": 1.2,
+        "tolerance": 75,
+        "xmin": 200
+      }
+    },
+    "source_meta": {
+      "aggregation": {
+        "ddof": 1,
+        "group_key": "activity",
+        "label_grammar": "A(:A:...)*_repN",
+        "n_reps": [
+          10,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "uncertainty_kind": "sd_between"
+      },
+      "background_subtraction": {
+        "bkg_bank_size": null,
+        "bkg_livetime_s": null,
+        "clamp_nonnegative": true,
+        "embedded_background": {
+          "bkg_label_pattern": "^(0|0\\.0)(?:_rep\\d+)?$",
+          "bkg_rows": [
+            0
+          ],
+          "reduce": "sum",
+          "suppress_background": "auto",
+          "used_to_define_background": false
+        },
+        "exp_livetime_s": null,
+        "method": "subtract_scaled_background",
+        "mode": "single"
+      },
+      "mapping_meta": {
+        "activities": [
+          200.0,
+          100.0,
+          50.0,
+          25.0,
+          12.5,
+          6.25,
+          3.125,
+          1.5625,
+          0.78125,
+          0.390625
+        ],
+        "label_scheme": "ACT_repN",
+        "n_reps": 2
+      },
+      "raw_meta": {
+        "kind": "experiment"
+      },
+      "source_path": "C:\\Users\\pomar\\OneDrive\\Desktop\\Hidex_AcCe_July2_Wenjo_Project\\Box_12-1-2025\\134Ce+225Ac-Hidex data_Naidu\\24-0702_CZT-Hidex-Comparison_(Standards&Mice)\\Hidex\\HidexAMG-134CeLa(89Zr)_std_czt-003-20240705-144014-AutoExport.xlsx"
+    }
+  }
+}

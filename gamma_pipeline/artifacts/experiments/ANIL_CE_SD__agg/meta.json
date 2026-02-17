@@ -1,0 +1,43 @@
+{
+  "experiment_id": "ANIL_CE_SD__agg",
+  "meta": {
+    "aggregation": {
+      "ddof": 1,
+      "group_key": "activity",
+      "label_grammar": "A(:A:...)*_repN",
+      "n_reps": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "uncertainty_kind": "sd_between"
+    },
+    "mapping_meta": {
+      "activities": [
+        1000,
+        500.0,
+        250.0,
+        125.0,
+        62.5,
+        31.25,
+        15.625,
+        7.8125,
+        3.90625,
+        1.953125
+      ],
+      "label_scheme": "ACT_repN",
+      "n_reps": 3
+    },
+    "raw_meta": {
+      "kind": "experiment"
+    },
+    "source_path": "C:\\Users\\pomar\\OneDrive\\Desktop\\Hidex_AcCe_July2_Wenjo_Project\\Box_12-1-2025\\134Ce+225Ac-Hidex data_Naidu\\24-0921_Hidex_AcCe-Mixture-Standards-Repeat\\134Ce_Std_.xlsx"
+  }
+}

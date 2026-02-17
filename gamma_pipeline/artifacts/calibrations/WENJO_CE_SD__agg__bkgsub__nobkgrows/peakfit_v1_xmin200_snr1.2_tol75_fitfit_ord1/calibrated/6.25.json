@@ -1,0 +1,11 @@
+{
+  "label": "6.25",
+  "spectrum_meta": {
+    "kind": "Spectrum",
+    "livetime": 60.0,
+    "schema": "bq_v1",
+    "x_attr": "bin_centers_kev",
+    "x_units": "keV",
+    "y_attr": "counts_vals"
+  }
+}
