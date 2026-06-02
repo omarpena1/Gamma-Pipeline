@@ -1,0 +1,117 @@
+{
+  "activities_bq": {
+    "ac225": 150.86528296697665,
+    "ce134": 83.76139709861329
+  },
+  "diagnostics": {
+    "extra": {
+      "ac_eff_model": {
+        "name": "ac225_win_counts60s_v2",
+        "params": {
+          "a": 3.4677227169834506,
+          "b": 6.991402446751088e-08
+        },
+        "type": "nonparalyzable"
+      },
+      "ac_window": {
+        "bounds_keV": [
+          410.10615711252655,
+          469.89384288747345
+        ],
+        "center_keV": 440.0,
+        "emax_keV": null,
+        "emin_keV": null,
+        "nsigma": 2.0,
+        "resolution_pct_fwhm": 8.0
+      },
+      "ce_eff_model": {
+        "name": "ce134_win1022_counts60s_v2",
+        "params": {
+          "a": 2.1722779095662186,
+          "b": 3.480697170073751e-06
+        },
+        "type": "nonparalyzable"
+      },
+      "ce_template_label": "1.95312",
+      "ce_window": {
+        "bounds_keV": [
+          952.5647558386412,
+          1091.4352441613587
+        ],
+        "center_keV": 1022.0,
+        "emax_keV": null,
+        "emin_keV": null,
+        "nsigma": 2.0,
+        "resolution_pct_fwhm": 8.0
+      },
+      "counts_ac_window_residual": 523.1534509358612,
+      "counts_ce_window_mix": 181.90000000000003,
+      "counts_ce_window_template": 184.47603607619232,
+      "scale_ce_template": 0.9860359311107035,
+      "sigma_counts_ac_window_residual": 22.872547976468674,
+      "sigma_counts_ce_window_mix": 13.48703080740902
+    },
+    "livetime_s": 60.0,
+    "method": "cutcount_ceac_v3",
+    "run_config": {
+      "eff_models": {
+        "ac": {
+          "name": "ac225_win_counts60s_v2",
+          "type": "nonparalyzable"
+        },
+        "ce": {
+          "name": "ce134_win1022_counts60s_v2",
+          "type": "nonparalyzable"
+        }
+      },
+      "isos": {
+        "ac": "ac225",
+        "ce": "ce134"
+      },
+      "livetime_s": 60.0,
+      "method": "cutcount_ceac_v3",
+      "roi_keV": [
+        200.0,
+        1250.0
+      ],
+      "templates": {
+        "ce134": {
+          "cal_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+          "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+          "label": "1.95312"
+        }
+      },
+      "windows": {
+        "ac": {
+          "bounds_keV": [
+            410.10615711252655,
+            469.89384288747345
+          ],
+          "center_keV": 440.0,
+          "emax_keV": null,
+          "emin_keV": null,
+          "nsigma": 2.0,
+          "resolution_pct_fwhm": 8.0
+        },
+        "ce": {
+          "bounds_keV": [
+            952.5647558386412,
+            1091.4352441613587
+          ],
+          "center_keV": 1022.0,
+          "emax_keV": null,
+          "emin_keV": null,
+          "nsigma": 2.0,
+          "resolution_pct_fwhm": 8.0
+        }
+      }
+    },
+    "saved_at": "2026-02-19T15:15:14.072860+00:00"
+  },
+  "experiment_id": "ANIL_MIX_SD__agg__bkgsub",
+  "label": "1.953:3.906",
+  "uncertainties_bq": {
+    "ac225": 6.595980228731375,
+    "ce134": 6.2123249192277585
+  }
+}

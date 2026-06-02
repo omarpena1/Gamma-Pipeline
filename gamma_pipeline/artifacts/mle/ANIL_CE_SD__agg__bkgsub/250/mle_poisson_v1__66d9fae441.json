@@ -1,0 +1,60 @@
+{
+  "activities_bq": {
+    "ce134": 8997.272361123903
+  },
+  "diagnostics": {
+    "fit": {
+      "activity_units": "nci",
+      "bounds": [
+        [
+          0.0,
+          null
+        ]
+      ],
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "fun_nll2": 15446.929408004806,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "method": "L-BFGS-B",
+      "nit": 17,
+      "status": 0,
+      "success": true,
+      "x0": [
+        1.0
+      ]
+    },
+    "fit_meta": {
+      "labels": [
+        "ce134"
+      ],
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 17,
+      "nll2": 15446.929408004806,
+      "success": true
+    },
+    "run_config": {
+      "activity_units": "nci",
+      "eff_models": {
+        "ce134": "ce134_resp_200-1250keV_cpm_nCi_np_v1"
+      },
+      "method": "poisson_mle_v1",
+      "roi_keV": [
+        200,
+        1250
+      ],
+      "templates": {
+        "ce134": {
+          "cal_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+          "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+          "label": "3.90625"
+        }
+      }
+    },
+    "saved_at": "2026-02-17T20:10:24.137199+00:00"
+  },
+  "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+  "label": "250",
+  "uncertainties_bq": {
+    "ce134": 16.622145278386412
+  }
+}

@@ -873,6 +873,8 @@ class ArtifactStore:
         with np.load(p, allow_pickle=False) as z:
             for k in z.files:
                 out[k] = np.asarray(z[k])
+        # print(type(out))
+        # print(out)
         return out
 
     def list_cutcount_runs(self, experiment_id: str, label: str) -> list[str]:

@@ -1,0 +1,57 @@
+{
+  "activities_bq": {
+    "ac225": 2270.2649599111883
+  },
+  "diagnostics": {
+    "extra": {
+      "counts_window": 7871.4,
+      "eff_model_name": "ac225_win_counts60s_v2",
+      "eff_model_params": {
+        "a": 3.4677227169834506,
+        "b": 6.991402446751088e-08
+      },
+      "eff_model_type": "nonparalyzable",
+      "sigma_counts_window": 88.72091072571335,
+      "window": {
+        "bounds_keV": [
+          203.18895966029723,
+          232.81104033970277
+        ],
+        "center_keV": 218.0,
+        "emax_keV": null,
+        "emin_keV": null,
+        "nsigma": 2.0,
+        "resolution_pct_fwhm": 8.0
+      }
+    },
+    "livetime_s": 60.0,
+    "method": "cutcount_single_v1",
+    "run_config": {
+      "eff_models": {
+        "ac": {
+          "name": "ac225_win_counts60s_v2",
+          "type": "nonparalyzable"
+        }
+      },
+      "iso": "ac225",
+      "method": "cutcount_single_v1",
+      "window": {
+        "bounds_keV": [
+          203.18895966029723,
+          232.81104033970277
+        ],
+        "center_keV": 218.0,
+        "emax_keV": null,
+        "emin_keV": null,
+        "nsigma": 2.0,
+        "resolution_pct_fwhm": 8.0
+      }
+    },
+    "saved_at": "2026-02-19T15:25:06.286742+00:00"
+  },
+  "experiment_id": "ANIL_AC_SD__agg__bkgsub",
+  "label": "62.5",
+  "uncertainties_bq": {
+    "ac225": 25.592898961704794
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "activities_bq": {
+    "ac225": 4523.363156310849
+  },
+  "diagnostics": {
+    "fit": {
+      "activity_units": "nci",
+      "bounds": [
+        [
+          0.0,
+          null
+        ]
+      ],
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "fun_nll2": 64480.39321607922,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "method": "L-BFGS-B",
+      "nit": 15,
+      "status": 0,
+      "success": true,
+      "x0": [
+        1.0
+      ]
+    },
+    "fit_meta": {
+      "labels": [
+        "ac225"
+      ],
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "nit": 15,
+      "nll2": 64480.39321607922,
+      "success": true
+    },
+    "run_config": {
+      "activity_units": "nci",
+      "eff_models": {
+        "ac225": "ac225_anilSD_resp_200-1250keV_cpm_nCi_np_v1"
+      },
+      "method": "poisson_mle_v1",
+      "roi_keV": [
+        200,
+        1250
+      ],
+      "templates": {
+        "ac225": {
+          "cal_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+          "experiment_id": "ANIL_AC_SD__agg__bkgsub",
+          "label": "3.90625"
+        }
+      }
+    },
+    "saved_at": "2026-02-18T00:09:36.862881+00:00"
+  },
+  "experiment_id": "ANIL_AC_SD__agg__bkgsub",
+  "label": "125",
+  "uncertainties_bq": {
+    "ac225": 15.399639198709366
+  }
+}

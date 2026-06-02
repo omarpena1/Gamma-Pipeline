@@ -1,0 +1,60 @@
+{
+  "activities_bq": {
+    "ce134": 2261.889458283818
+  },
+  "diagnostics": {
+    "fit": {
+      "activity_units": "nci",
+      "bounds": [
+        [
+          0.0,
+          null
+        ]
+      ],
+      "emax_keV": 1250.0,
+      "emin_keV": 200.0,
+      "fun_nll2": 516.832827763789,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "method": "L-BFGS-B",
+      "nit": 15,
+      "status": 0,
+      "success": true,
+      "x0": [
+        1.0
+      ]
+    },
+    "fit_meta": {
+      "labels": [
+        "ce134"
+      ],
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nit": 15,
+      "nll2": 516.832827763789,
+      "success": true
+    },
+    "run_config": {
+      "activity_units": "nci",
+      "eff_models": {
+        "ce134": "ce134_resp_200-1250keV_cpm_nCi_np_v1"
+      },
+      "method": "poisson_mle_v1",
+      "roi_keV": [
+        200,
+        1250
+      ],
+      "templates": {
+        "ce134": {
+          "cal_tag": "peakfit_v1_xmin200_snr1.2_tol75_fitfit_ord1",
+          "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+          "label": "31.25"
+        }
+      }
+    },
+    "saved_at": "2026-02-17T20:10:39.130572+00:00"
+  },
+  "experiment_id": "ANIL_CE_SD__agg__bkgsub",
+  "label": "62.5",
+  "uncertainties_bq": {
+    "ce134": 8.026680340950998
+  }
+}
